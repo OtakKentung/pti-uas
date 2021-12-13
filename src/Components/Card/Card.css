@@ -22,16 +22,17 @@ body{
     padding-top: 5%;
     margin: 0 -5px;
 }
-.container::after{
-    content: "";
-    display:table;
-    clear:both;
-} 
-@media screen and (max-width: 575px) {
+
+/* @media screen and (max-width: 575px) {
+    .container{
+        content: "";
+        display:table-row;
+        clear:both;
+    } 
     .card {
       width: 100%;
     }
-  }
+  } */
 
 .container .card {
     position: relative;
